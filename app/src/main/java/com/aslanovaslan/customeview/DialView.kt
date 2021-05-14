@@ -16,8 +16,8 @@ class DialView @JvmOverloads constructor(
     defStyleAttr: Int = 0
 ) : View(context, attrs, defStyleAttr) {
 
-    private var radius = 0.0f                   // Radius of the circle.
-    private var fanSpeed = FanSpeed.OFF         // The active selection.
+    private var radius = 0.0f                   // Radius of the circle.cercivenin yumrulugu
+    private var fanSpeed = FanSpeed.OFF         // The active selection. activ olan suret
     // position variable which will be used to draw label and indicator circle position
     private val pointPosition: PointF = PointF(0.0f, 0.0f)
 
